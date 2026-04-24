@@ -6,9 +6,9 @@ Overview
 
 The pipeline performs the following steps:
 
--Trigger on push to main branch or manual dispatch
--Checkout repository code
--Build a Docker image
--Run tests inside the container using pytest
--Authenticate with Docker Hub
--Push the Docker image to Docker Hub
+Trigger on push to main branch or manual dispatch
+Checkout repository code
+Build a Docker image
+Run tests inside the container using pytest
+Authenticate with Docker Hub
+Push the Docker image to Docker Hub
