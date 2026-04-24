@@ -3,6 +3,8 @@ name: CI/CD PIPELINE
 on:
   push:
     branches: [main]
+  workflow_dispatch:
+    
 
 jobs:
   test-build-deploy:
